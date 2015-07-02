@@ -1,6 +1,7 @@
 # Nois
 
 Como ter lucro?
+
 Qual as posicões dos menus e o que vai aparecer?
 
 Gastos com o hospedam e com o boleto para o fornecedor do serviço?
@@ -13,8 +14,8 @@ Quem somos e como trabalhamos?
 
 Ver quantos aos aplicativos da google?
 
-Ofertas e Sorrteios:
-Como vai ser, para a nos mesmos.
+Ofertas e Sorteios:
+Como vai ser, para nos mesmos.
 
 
 Bancos de dados, tabelas, normalização.
