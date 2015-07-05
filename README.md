@@ -20,77 +20,77 @@ Como vai ser, para nos mesmos.
 ___________________________________________________________________________________________________________________
 <b>BANCO DE DADOS - TABELAS - NORMALIZAÇÃO</b>
 
-PLACES:
-  t.string :phone
-  t.string :site
-  t.string :description
-  t.string :name
-  t.string :edited, default: 0
-  t.string :authorized, default: 0
-  t.string :location
-  t.datetime :deleted_at
-  t.references :category
-  t.references :user
-  t.attachment :photo  
+PLACES:</br>
+  t.string :phone </br>
+  t.string :site</br>
+  t.string :description</br>
+  t.string :name</br>
+  t.string :edited, default: 0</br>
+  t.string :authorized, default: 0</br>
+  t.string :location</br>
+  t.datetime :deleted_at</br>
+  t.references :category</br>
+  t.references :user</br>
+  t.attachment :photo  </br>
   
 OFFERS:
 
-USERS:
-  t.string :email,              null: false, default: ""
-  t.string :encrypted_password, null: false, default: ""
-  t.string   :reset_password_token
-  t.datetime :reset_password_sent_at
-  t.datetime :remember_created_at
-  t.integer  :sign_in_count, default: 0, null: false
-  t.datetime :current_sign_in_at
-  t.datetime :last_sign_in_at
-  t.string   :current_sign_in_ip
-  t.string   :last_sign_in_ip
-  t.boolean :locked, default: 0
-  t.string :name
-  t.string :phone, default: ""
-  t.string :mobile, default: ""
-  t.string :city, default: ""
-  t.string :state, default: ""
+USERS:</br>
+  t.string :email,              null: false, default: ""</br>
+  t.string :encrypted_password, null: false, default: ""</br>
+  t.string   :reset_password_token</br>
+  t.datetime :reset_password_sent_at</br>
+  t.datetime :remember_created_at</br>
+  t.integer  :sign_in_count, default: 0, null: false</br>
+  t.datetime :current_sign_in_at</br>
+  t.datetime :last_sign_in_at</br>
+  t.string   :current_sign_in_ip</br>
+  t.string   :last_sign_in_ip</br>
+  t.boolean :locked, default: 0</br>
+  t.string :name</br>
+  t.string :phone, default: ""</br>
+  t.string :mobile, default: ""</br>
+  t.string :city, default: ""</br>
+  t.string :state, default: ""</br>
   t.string :country, default: "Brasil"
-  t.string :business, default: ""
-  t.boolean :anonymous, default: 0
-  t.boolean :admin, default: 0
+  t.string :business, default: ""</br>
+  t.boolean :anonymous, default: 0</br>
+  t.boolean :admin, default: 0</br>
       
 PRIZES:
 
-MESSAGES:
-  t.string :name
-	t.string :email
-	t.string :mobile
-	t.string :phone
-	t.text :subject
-  t.datetime :deleted_at
+MESSAGES:</br>
+  t.string :name</br>
+	t.string :email</br>
+	t.string :mobile</br>
+	t.string :phone</br>
+	t.text :subject</br>
+  t.datetime :deleted_at</br>
 
-NEWSLETTERS:
-  t.string :email
+NEWSLETTERS:</br>
+  t.string :email</br>
   
-COMMENTS:
-  t.string :name
-	t.text :texto
-	t.string :email
-	t.references :place
-	t.datetime :deleted_at
+COMMENTS:</br>
+  t.string :name</br>
+	t.text :texto</br>
+	t.string :email</br>
+	t.references :place</br>
+	t.datetime :deleted_at</br>
 	
-CATEGORIES:
-  t.string :name
-	t.string :description
-	t.datetime :deleted_at
-	t.attachment :photo
+CATEGORIES:</br>
+  t.string :name</br>
+	t.string :description</br>
+	t.datetime :deleted_at</br>
+	t.attachment :photo</br>
 	
-SUBCATEGORIES:
-  t.string :name
-	t.references :category
-	t.datetime :deleted_at
+SUBCATEGORIES:</br>
+  t.string :name</br>
+	t.references :category</br>
+	t.datetime :deleted_at</br>
 	
-SYSTEM_CONFIGS:
-  t.string :email
-	t.boolean :systemlocked, default: 0
+SYSTEM_CONFIGS:</br>
+  t.string :email</br>
+	t.boolean :systemlocked, default: 0</br>
 ___________________________________________________________________________________________________________________
 
 
