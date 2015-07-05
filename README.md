@@ -18,7 +18,7 @@ Ofertas e Sorteios:
 Como vai ser, para nos mesmos.
 
 ___________________________________________________________________________________________________________________
-BANCO DE DADOS - TABELAS - NORMALIZAÇÃO
+<i>BANCO DE DADOS - TABELAS - NORMALIZAÇÃO</i>
 
 PLACES:
 
